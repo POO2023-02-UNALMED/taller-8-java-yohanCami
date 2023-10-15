@@ -51,7 +51,7 @@ public class Portero extends Futbolista{
 	
 	@Override
 	
-	public int compareTo(Futbolista jugador) {
+	public int compareTo(Object jugador) {
 		
 		if (jugador instanceof Portero) {
             Portero otroPortero = (Portero) jugador;
