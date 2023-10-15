@@ -30,6 +30,9 @@ public abstract class Futbolista implements Comparable<Futbolista> {
 	
 	public abstract boolean jugarConLasManos();
 	
+	@Override
+    public abstract int compareTo(Futbolista otroFutbolista);
+	
 	/*
 	
 	public abstract boolean getJugarConLasManos();
