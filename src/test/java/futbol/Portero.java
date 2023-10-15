@@ -55,7 +55,7 @@ public class Portero extends Futbolista{
 		
 		if (jugador instanceof Portero) {
             Portero otroPortero = (Portero) jugador;
-            return this.golesRecibidos - otroPortero.golesRecibidos;
+            return Math.abs(this.golesRecibidos - otroPortero.golesRecibidos);
         }
 		
 		return 0;
